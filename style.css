@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+h1{
+    font-size: 50px;
+}
+h1 span{
+    color: orange;
+}
+.header-top{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    display: flex;
+   margin: 15px;
+}
+.header-banner{
+    width:40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    margin-bottom: 100px;
+    
+}
+.header-banner img{
+    width: 100%;
+}
+.header-banner a{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, rgb(184, 33, 184), tomato);
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+}
