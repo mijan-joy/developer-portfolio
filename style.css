@@ -15,12 +15,19 @@ h1 span{
     display: flex;
    margin: 15px;
 }
+.dream-area{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+   
+}
 .header-banner{
     width:40%;
     float: left;
     margin-left: 5%;
     padding-left: 2%;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     
 }
 .header-banner img{
@@ -32,4 +39,5 @@ h1 span{
     padding: 10px 40px;
     color: white;
     font-weight: 700;
+    text-transform: uppercase;
 }
